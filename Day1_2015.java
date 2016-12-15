@@ -38,7 +38,7 @@ public class Day1_2015 {
 		
 			if(floorNum== -1)
 			{
-				System.out.println("Santa first enters the basement at position : " + i);
+				System.out.println("Santa first enters the basement at position : " + (i+1));
 				break;
 			}
 		}
