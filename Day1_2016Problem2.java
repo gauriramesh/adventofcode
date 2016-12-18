@@ -1,6 +1,6 @@
 /**
  * Gauri Ramesh
- * Advent of Code 2016 Day 1 Problem 1
+ * Advent of Code 2016 Day 1 Problem 2
  * 12/15/2016
  * This contains code for Advent of Code Day 1 Problem 2.
  */
