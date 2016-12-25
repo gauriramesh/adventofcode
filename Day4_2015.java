@@ -27,7 +27,6 @@ public class Day4_2015 {
 				// Use a BigInteger when there may be overflow.
 				BigInteger integer = new BigInteger(1, md.digest());
 				String hash = String.format("%1$032X", integer);
-				System.out.println(hash);
 				for (int i = 0; i < 5; i++) {
 					if (hash.charAt(i) == '0') {
 						numZeroes++;
