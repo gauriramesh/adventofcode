@@ -15,7 +15,7 @@ public class Day4_2015 {
 		String input = "iwrupvqb";
 		Integer number = 0;
 		int numZeroes = 0;
-		Loop: while (numZeroes != 5) {
+		Loop: while (numZeroes != 6) {
 			String numAppend = number.toString();
 			String testInput = input.concat(numAppend);
 			numZeroes = 0;
@@ -27,11 +27,11 @@ public class Day4_2015 {
 				// Use a BigInteger when there may be overflow.
 				BigInteger integer = new BigInteger(1, md.digest());
 				String hash = String.format("%1$032X", integer);
-				for (int i = 0; i < 5; i++) {
+				for (int i = 0; i < 6; i++) {
 					if (hash.charAt(i) == '0') {
 						numZeroes++;
 					}
-					if (numZeroes == 5) {
+					if (numZeroes == 6) {
 						System.out.println(numAppend);
 						break Loop;
 					}
