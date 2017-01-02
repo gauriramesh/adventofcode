@@ -67,7 +67,7 @@ public class Day6_2016 {
 				                             (e1, e2) -> e1, LinkedHashMap::new));
 			
 			List array = new ArrayList(sortedMap.keySet());
-			messageBuild.append(array.get(array.size()-1));
+			messageBuild.append(array.get(0));
 			
 			
 			
